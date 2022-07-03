@@ -1,0 +1,58 @@
+﻿{
+  "applicationCaption": "Dlya_primera",
+  "applicationTitle": "Dlya_primera",
+  "items": [
+    {
+      "link": null,
+      "menuName": "для-примера",
+      "caption": "Для примера",
+      "title": "Для примера",
+      "children": [
+        {
+          "link": "i-i-s-dlya-primera-тип-l",
+          "menuName": null,
+          "caption": "Тип",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dlya-primera-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dlya-primera-рабочее-место-l",
+          "menuName": null,
+          "caption": "Рабочее место",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-dlya-primera-тип-l",
+          "menuName": null,
+          "caption": "ТипL",
+          "title": "Тип",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dlya-primera-пользователь-l",
+          "menuName": null,
+          "caption": "ПользовательL",
+          "title": "Пользователь",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

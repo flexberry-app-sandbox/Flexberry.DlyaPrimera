@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="IIS.Dlya_primera.Global" Language="C#" %>

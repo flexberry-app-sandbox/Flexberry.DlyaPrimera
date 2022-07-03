@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Тип",
+  "name": "IISDlya_primeraТипE",
+  "className": "ТипE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-primera-тип",
+      "modelProjection": "ТипE"
+    }
+  ]
+}

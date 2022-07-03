@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Пользователь",
+  "name": "IISDlya_primeraПользовательE",
+  "className": "ПользовательE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-primera-пользователь",
+      "modelProjection": "ПользовательE"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+﻿{
+  "name": "IISDlya_primeraРабочееМесто",
+  "modelName": "i-i-s-dlya-primera-рабочее-место",
+  "className": "РабочееМесто",
+  "nameSpace": "IIS.Dlya_primera",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "инвНомер",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кабинет",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "место",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "оборудование",
+      "relatedTo": "i-i-s-dlya-primera-оборудование",
+      "inverse": "рабочееМесто"
+    }
+  ],
+  "projections": [
+    {
+      "name": "РабочееМестоE",
+      "modelName": "i-i-s-dlya-primera-рабочее-место",
+      "attrs": [
+        {
+          "name": "инвНомер",
+          "caption": "Инв номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кабинет",
+          "caption": "Кабинет",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "место",
+          "caption": "Место",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ОборудованиеE",
+          "caption": "Оборудование",
+          "name": "оборудование",
+          "relatedTo": "i-i-s-dlya-primera-оборудование",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "РабочееМестоL",
+      "modelName": "i-i-s-dlya-primera-рабочее-место",
+      "attrs": [
+        {
+          "name": "инвНомер",
+          "caption": "Инв номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кабинет",
+          "caption": "Кабинет",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "место",
+          "caption": "Место",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

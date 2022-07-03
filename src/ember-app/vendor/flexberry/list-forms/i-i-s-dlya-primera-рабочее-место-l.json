@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-primera-рабочее-место-e",
+  "editForm": "i-i-s-dlya-primera-рабочее-место-e",
+  "external": false,
+  "caption": "Рабочее место",
+  "name": "IISDlya_primeraРабочееМестоL",
+  "className": "РабочееМестоL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-primera-рабочее-место",
+      "modelProjection": "РабочееМестоL"
+    }
+  ]
+}

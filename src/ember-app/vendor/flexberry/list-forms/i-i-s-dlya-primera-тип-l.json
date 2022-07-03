@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-primera-тип-e",
+  "editForm": "i-i-s-dlya-primera-тип-e",
+  "external": false,
+  "caption": "Тип",
+  "name": "IISDlya_primeraТипL",
+  "className": "ТипL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-primera-тип",
+      "modelProjection": "ТипL"
+    }
+  ]
+}

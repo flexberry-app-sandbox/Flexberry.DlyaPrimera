@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-primera-пользователь-e",
+  "editForm": "i-i-s-dlya-primera-пользователь-e",
+  "external": false,
+  "caption": "Пользователь",
+  "name": "IISDlya_primeraПользовательL",
+  "className": "ПользовательL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-primera-пользователь",
+      "modelProjection": "ПользовательL"
+    }
+  ]
+}

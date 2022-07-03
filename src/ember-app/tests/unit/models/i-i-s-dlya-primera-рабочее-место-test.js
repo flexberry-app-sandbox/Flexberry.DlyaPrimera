@@ -1,0 +1,25 @@
+import { moduleForModel, test } from 'ember-qunit';
+
+moduleForModel('i-i-s-dlya-primera-рабочее-место', 'Unit | Model | i-i-s-dlya-primera-рабочее-место', {
+  // Specify the other units that are required for this test.
+  needs: [
+    'model:i-i-s-dlya-primera-оборудование',
+    'model:i-i-s-dlya-primera-пользователь',
+    'model:i-i-s-dlya-primera-рабочее-место',
+    'model:i-i-s-dlya-primera-тип',
+    'validator:ds-error',
+    'validator:presence',
+    'validator:number',
+    'validator:date',
+    'validator:belongs-to',
+    'validator:has-many',
+    'service:syncer',
+  ],
+});
+
+test('it exists', function(assert) {
+  let model = this.subject();
+
+  // let store = this.store();
+  assert.ok(!!model);
+});

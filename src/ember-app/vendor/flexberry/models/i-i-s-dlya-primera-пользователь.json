@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISDlya_primeraПользователь",
+  "modelName": "i-i-s-dlya-primera-пользователь",
+  "className": "Пользователь",
+  "nameSpace": "IIS.Dlya_primera",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПользовательE",
+      "modelName": "i-i-s-dlya-primera-пользователь",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПользовательL",
+      "modelName": "i-i-s-dlya-primera-пользователь",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

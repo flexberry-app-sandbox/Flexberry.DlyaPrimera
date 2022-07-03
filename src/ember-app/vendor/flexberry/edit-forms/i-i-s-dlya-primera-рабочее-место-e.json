@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "тип",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "Оборудование.Тип",
+      "projection": "ТипL",
+      "detailModelName": "i-i-s-dlya-primera-оборудование"
+    },
+    {
+      "master": "сотрудник",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "Оборудование.Сотрудник",
+      "projection": "ПользовательL",
+      "detailModelName": "i-i-s-dlya-primera-оборудование"
+    }
+  ],
+  "external": false,
+  "caption": "Рабочее место",
+  "name": "IISDlya_primeraРабочееМестоE",
+  "className": "РабочееМестоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-primera-рабочее-место",
+      "modelProjection": "РабочееМестоE"
+    }
+  ]
+}
