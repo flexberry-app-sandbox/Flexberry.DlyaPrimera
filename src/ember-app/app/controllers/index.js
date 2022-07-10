@@ -22,19 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-dlya-primera-тип-l',
             caption: i18n.t('forms.application.sitemap.для-примера.i-i-s-dlya-primera-тип-l.caption'),
             title: i18n.t('forms.application.sitemap.для-примера.i-i-s-dlya-primera-тип-l.title'),
-            icon: 'phone',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-dlya-primera-пользователь-l',
             caption: i18n.t('forms.application.sitemap.для-примера.i-i-s-dlya-primera-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.для-примера.i-i-s-dlya-primera-пользователь-l.title'),
-            icon: 'building',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-dlya-primera-рабочее-место-l',
             caption: i18n.t('forms.application.sitemap.для-примера.i-i-s-dlya-primera-рабочее-место-l.caption'),
             title: i18n.t('forms.application.sitemap.для-примера.i-i-s-dlya-primera-рабочее-место-l.title'),
-            icon: 'building',
+            icon: 'phone',
             children: null
           }]
         }, {
@@ -46,13 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-dlya-primera-тип-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-dlya-primera-тип-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-dlya-primera-тип-l.title'),
-            icon: 'tasks',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-dlya-primera-пользователь-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-dlya-primera-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-dlya-primera-пользователь-l.title'),
-            icon: 'edit',
+            icon: 'archive',
             children: null
           }]
         }
